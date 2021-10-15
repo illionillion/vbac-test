@@ -5,6 +5,8 @@ Sub test1()
     Do While i <= 10
     
         Range("A" & i) = i
+        ' Range("B" & 11 - i) = i
+
         i = i + 1
     Loop
 
